@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 @import url(/css/reset.css);
-
-
+@import url(/css/style-menu.css);
+@import url(/css/style-sobremin.css);
 @import url(/css/style-habilidade.css);
 @import url(/css/responsividade.css);
 @import url(/css/style-projetos.css);
 @import url(/css/style-footer.css);
+
 
     
 
