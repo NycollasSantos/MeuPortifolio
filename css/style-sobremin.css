@@ -1,0 +1,46 @@
+.conteudo-sobremim {
+    display:flex; 
+    padding: 200px;  
+    align-items:center;
+    background: #040404;
+    flex-direction: row;
+    flex-direction: column;
+    row-gap: 80px;
+    height: 1080px;
+    width: 1920;
+   
+   
+}
+
+.titulo-sobremim {
+    font-family: 'Inter', sans-serif;
+    flex-direction: center;
+    font-weight: 400%;
+    font-size:3.6rem;
+    color: #FF4716;
+    
+    
+}    
+    
+
+.video-sobremim {
+    height: 600px;
+    width: 1200px;
+}
+
+
+#btn-mobile{
+    display: none;
+}
+.minhas-habilidades{
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+    background: #0E0E0E;
+    flex-direction: row;
+    flex-direction: column;
+    row-gap: 80px;
+    height: 500px;
+    width: 920;
+   
+}

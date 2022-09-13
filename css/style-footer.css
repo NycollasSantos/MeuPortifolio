@@ -1,0 +1,17 @@
+footer{
+    border-top: 0.1px solid   #FF4716;
+    background-color: #0a0a0a;
+    height: 100px;
+    width: 100%;
+}
+
+.info-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:130%;
+    color: #FFFFFF;
+}

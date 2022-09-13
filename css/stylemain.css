@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url(/css/reset.css);
+@import url(/css/style-menu.css);
+@import url(/css/style-sobremin.css);
+@import url(/css/style-habilidade.css);
+@import url(/css/responsividade.css);
+@import url(/css/style-projetos.css);
+@import url(/css/style-footer.css);
+    
+
+/*Estilo do conteudo principal */
+.conteudo-principal {
+    margin-top: 80px;
+    padding: 85px;
+    height: 1080px;
+    width: 1920;
+    
+    
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-escrito {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    gap: 52px;
+    justify-content:space-around;
+}
+
+.titulo-ola {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:3.6rem;
+    color: #FFFFFF;
+
+}
+
+.meu-nome {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size:8.0rem;
+    color:  #FF4716;
+}
+
+.titulo-desenvolvedor{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:3.6rem;
+    color: #FFFFFF;
+
+}
+
+.conjunto-botoes {
+    display: flex;
+    height: 47px;
+    flex-direction: row;
+    gap: 32px;
+    text-align: center;
+  
+
+   
+}
+
+.botao-github{
+    width: 160px;
+    height: 53px;
+    font-family: 'Inter', sans-serif;
+    background-color: #0E0E0E;
+    font-size: 3.0rem;
+    color: #FFFFFF;
+    border: 2px solid #FF4716;
+    border-radius: 11px;
+    -webkit-transition-duration: 0.4s; / * Safari * /
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.botao-github:hover {
+    background-color: #FF4716;
+    color: white;
+}
+
+.botao-linkedin {
+    width: 160px;
+    height: 53px;
+    font-family: 'Inter', sans-serif;
+    background-color: #0E0E0E;
+    font-size: 3.0rem;
+    color: #FFFFFF;
+    border: 2px solid #FF4716;
+    border-radius: 11px;
+    -webkit-transition-duration: 0.4s; / * Safari * /
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.botao-linkedin:hover {
+    background-color: #FF4716;
+    color: white;
+}
+
+.botao-youtube {
+    width: 160px;
+    height: 53px;
+    font-family: 'Inter', sans-serif;
+    background-color: #0E0E0E;
+    font-size: 3.0rem;
+    color: #FFFFFF;
+    border: 2px solid #FF4716;
+    border-radius: 11px;
+    -webkit-transition-duration: 0.4s; / * Safari * /
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.botao-youtube:hover {
+    background-color: #FF4716;
+    color: white;
+}
+
+
+.imagen-principal {
+    height: 530px;
+    margin-left: -256px;
+    margin-top: 50px;
+}
+
+/* Efeito Zoom da imagem principal*/
+.imagen-principal {
+    position:relative;
+    display:inline-block;
+    box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+    
+}
+
+.imagen-principal:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:#0CF;
+    opacity:0;
+    border-radius:5px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,0.3);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: -1;
+}
+
+.imagen-principal:hover{
+    transform:scale(1.25,1.25);
+}
+  
+.imagen-principal:hover::after{
+    opacity:1;
+}
+/*---------------------------------------*/
+
+
+
+/* Responsividade do site*/
+@media (max-width: 1640px) {
+    .conteudo-secundario {
+        flex-direction: column;
+       
+}
+
+.imagen-principal {
+    max-width: 500px;
+    justify-content: center;
+    margin-left: -9px;
+    
+    
+}
+
+@media (max-width: 1204px){
+    .video-sobremim {
+        height: 500px;
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1014px){
+    .video-sobremim {
+        height: 400px;
+        width: 800px;
+    }
+}
+
+@media (max-width: 814px){
+    .video-sobremim {
+        height: 300px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 781px){
+    .video-sobremim {
+        height: 300px;
+        width: 500px;
+    }
+
+@media (max-width: 512px){
+        .video-sobremim {
+            height: 250px;
+            width: 400px;
+        }
+    }
+    
+@media (max-width: 414px){
+        .video-sobremim {
+            display: flex;
+            justify-content: center;
+            height: 200px;
+            width: 350px;
+        }
+    }
+
+    .imagen-principal{
+        display: block;
+
+       
+    }
+    
+        .tudo-sobremin{
+            height: 900px;
+            width: auto;
+    }
+
+        .minhas-habilidades{
+            height: 700px;
+            width: auto;
+            
+            
+        }
+
+        .logo-linguagens{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            gap: 52px;
+            margin-top: 50px;
+        }    
+    
+        .titulo-habilidades{
+            display: flex;
+            justify-content:center;
+            margin-top: -600px;
+
+        }    
+    #botao-cv {
+        display: flex;
+            align-items:center;
+            text-align: center;
+            justify-content: center;
+            padding: 8rem;
+            max-width: 100%; 
+            font-family: 'Inter', sans-serif;
+            background-color: #00C2CB;
+            font-size: 2.6rem;
+            color: #FFFFFF;
+            border-radius: 11px;
+            -webkit-transition-duration: 0.4s; / * Safari * /
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+    }
+
+        .imagen-principal {
+            width: 400px;
+            justify-content: center;
+            margin-left: -9px;
+            margin-top: 5px;
+        
+}
+
+
+@media (max-width: 625px) {
+    .conjunto-botoes {
+        display: flex;
+        width: 80px;
+        margin-top: 1px;
+        height: 5px;
+        height: 27px;
+        flex-direction: row;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .imagen-principal {
+        max-width: 100%;
+        flex-direction: center;
+        margin-top: -20px;
+        margin-left: -9px;
+    }
+
+    .botao-github{
+        width: 80px;
+        height: 53px;
+        font-family: 'Inter', sans-serif;
+        background-color: #0E0E0E;
+        font-size: 2.0rem;
+        color: #FFFFFF;
+        border: 2px solid #FF4716;
+        border-radius: 11px;
+        -webkit-transition-duration: 0.4s; / * Safari * /
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+        
+    }
+
+    .botao-github:hover {
+        background-color: #FF4716;
+        color: white;
+    }
+
+    .botao-linkedin {
+        width: 90px;
+        height: 53px;
+        font-family: 'Inter', sans-serif;
+        background-color: #0E0E0E;
+        font-size: 2.0rem;
+        color: #FFFFFF;
+        border: 2px solid #FF4716;
+        border-radius: 11px;
+        -webkit-transition-duration: 0.4s; / * Safari * /
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+    .botao-linkedin:hover {
+        background-color: #FF4716;
+        color: white;
+    }
+
+    .botao-youtube {
+        width: 90px;
+        height: 53px;
+        font-family: 'Inter', sans-serif;
+        background-color: #0E0E0E;
+        font-size: 2.0rem;
+        color: #FFFFFF;
+        border: 2px solid #FF4716;
+        border-radius: 11px;
+        -webkit-transition-duration: 0.4s; / * Safari * /
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+    .botao-youtube:hover {
+        background-color: #FF4716;
+        color: white;
+    }
+
+    .titulo-sobremim {
+        display: flex;
+        font-size: 2.0rem;
+        justify-content:space-between;
+
+    }
+
+    #botao-cv {
+        display: flex;
+        align-items:center;
+        text-align: center;
+        justify-content: center;
+        padding: 8rem;
+        height:60px ;
+        padding-left: 20px;
+        padding-right:20px;
+        font-family: 'Inter', sans-serif;
+        background-color: #00C2CB;
+        font-size: 2.6rem;
+        color: #FFFFFF;
+        border-radius: 11px;
+        -webkit-transition-duration: 0.4s; / * Safari * /
+        transition-duration: 0.4s;
+        cursor: pointer;
+    
+    }
+    
+    #botao-cv:hover {
+        background-color: #FF4716;
+        color: white;
+    }
+
+}
+
+@media (max-width: 1191px) {
+    #botao-cv {
+    display: flex;
+        align-items:center;
+        text-align: center;
+        justify-content: center;
+        padding: 8rem;
+        height:60px ;
+        padding-left: 20px;
+        padding-right:20px;
+        font-family: 'Inter', sans-serif;
+        background-color: #00C2CB;
+        font-size: 2.6rem;
+        color: #FFFFFF;
+        border-radius: 11px;
+        -webkit-transition-duration: 0.4s; / * Safari * /
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+}
+
+
+}
+
+@media (max-width: 1191px) {
+    #menu {
+        display:block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background:#040404;
+        height: 0px;
+        transition: .6s;
+        z-index: 10000;
+        visibility: hidden;
+        overflow-y: hidden;
+        
+        
+    
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        
+    }
+
+    #btn-mobile {
+        display: flex;
+        font-size: 100%;
+        align-items:center;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        color:#FFFFFF;
+        cursor: pointer;
+        gap: .5rem;
+        
+    }
+
+    #hamburger {
+        color: #FF4716;
+        border-top: 5px solid;
+        width: 30px;
+        display: block;
+    }
+    #hamburger::after, #hamburger::before {
+        content: '';
+        display: block;
+        width: 30px;
+        height:5px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -10px;
+    }
+}
+
+
+
+
+
+
+
+
+

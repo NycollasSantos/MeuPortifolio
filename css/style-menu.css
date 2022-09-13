@@ -1,0 +1,86 @@
+#header {
+    display:flex;
+    border-bottom: 0.1px solid   #FF4716;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    padding: 1rem;
+    line-height: 6.0rem;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    background: #040404;
+    z-index: 1;
+    
+}
+
+.imagen-logotipo {
+    padding: 19px;
+     
+    
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+#menu  {
+    display: flex;
+    margin-left: 80px;
+    gap: 52px;
+    list-style: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 2.5rem;
+    width: 90%;
+    max-width: 780px;
+    min-width: 320px;
+   
+}
+
+
+
+#botao-cv {
+    display: flex;
+    justify-content:space-between;
+    height:60px ;
+    line-height: 6.0rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: #00C2CB;
+    font-size: 2.6rem;
+    color: #FFFFFF;
+    border-radius: 11px;
+    -webkit-transition-duration: 0.4s; / * Safari * /
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+#botao-cv {
+    display: flex;
+    justify-content:space-between;
+    height:60px ;
+    line-height: 6.0rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: #00C2CB;
+    font-size: 2.6rem;
+    color: #FFFFFF;
+    border-radius: 11px;
+    -webkit-transition-duration: 0.4s; / * Safari * /
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+#botao-cv:hover {
+    background-color: #FF4716;
+    color: white;
+}
