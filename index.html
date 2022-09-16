@@ -5,67 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta ="description" content="Esse o um portifolio onde você vai conheça um pouco sobre mim e os meus projetos!">
-    <link rel="stylesheet"type="text/css"href="css/stylemain.css"/> 
+    <link rel="stylesheet"type="text/css"href="css/stylemain.css"/>
+    <link rel="stylesheet"type="text/css"href="css/style-menu.css"/>
+    <link rel="stylesheet"type="text/css"href="css/style-sobremin.css"/>  
+    <link rel="stylesheet"type="text/css"href="css/style-habilidade.css"/>  
+    <link rel="stylesheet"type="text/css"href="css/responsividade.css"/>  
+    <link rel="stylesheet"type="text/css"href="css/style-projetos.css"/>
+    <link rel="stylesheet"type="text/css"href="css/style-footer.css"/>
+    <link rel="stylesheet"type="text/css"href="css/reset.css"/>
+    <link rel="stylesheet"type="text/css"href="css/anime-scroll.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="imagens/favicon.png" type="image/x-icon"/>     
     <title>Nycollas Santos</title>   
 </head>
 
 <!--Menu principal e meu logotipo-->
 <body>
     <header id="header">
-        <img class="imagen-logotipo"src="imagens/logotipo.svg" alt="Meu logotipo">
+        <img class="imagen-logotipo"src="imagens/logotipo.svg" alt="Meu logotipo" >
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
             <span id="hamburger"></span>
             </button>
             <ul id="menu" role="menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#habilidades">Habilidade</a></li>
-                    <li><a href="/">Projetos</a></li>
-                    <a id="botao-cv" target="_blank" href="https://drive.google.com/file/d/1eelZX4nPlZl62y-RxY6Aq5nOMTtZ5vy8/view?usp=sharing">Baixar Cv</a>
+                    <li><a class="menu-home" href="#home">Home</a></li>
+                    <li><a class="menu-sobre"href="#sobre">Sobre</a></li>
+                    <li><a class="menu-habilidades"href="#habilidades">Habilidade</a></li>
+                    <li><a class="menu-projetos"href="#projetos">Projetos</a></li>
+                    <a id="botao-cv" target="_blank" href="https://drive.google.com/file/d/1mmnpT4V4izK9Hy8cNKVes-_HvcxssLuh/view?usp=sharing">Baixar Cv</a>
             </ul>
         </nav> 
     </header>
 
 <!--Conteudo da pagina principal-->
     <script src="./script.js"></script>
-    <main class="conteudo-principal">
-        <section class="conteudo-secundario">
-            <div class="conteudo-escrito">
-                <h3 class="titulo-ola">Olá Mundo! Eu sou:</h3>
-                <h1 class="meu-nome">Nycollas Santos</h1>
-                <h2 class="titulo-desenvolvedor">DESENVOLVEDOR FRONT-END E <br>CRIADOR DE CONTEÚDO!</h2>
-                    <section class="conjunto-botoes">
+    <main  id="home" class="conteudo-principal" data-aos="fade-right" >
+      <div class="div-img">
+        <img class="imagen-principal"data-aos="fade-right" src="imagens/foto principal.svg" alt="Foto do nycollas olhando para você com autoridade.A imagem está redonda e possui um fundo laranja.">
+      </div>
+        <section class="conteudo-secundario"data-aos="fade-right">
+            <div class="conteudo-escrito" data-aos="fade-right">
+                <h3 class="titulo-ola"data-aos="fade-right">Olá Mundo! Eu sou:</h3>
+                <h1 class="meu-nome"data-aos="fade-right">Nycollas Santos</h1>
+                <h2 class="titulo-desenvolvedor"data-aos="fade-right">DESENVOLVEDOR FRONT-END <br>E CRIADOR DE CONTEÚDO!</h2>
+                    <section class="conjunto-botoes"data-aos="fade-right">
                     <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="botao-github botao-github2">Github</button></a>
                     <a target="_blank" href='https:www.linkedin.com/in/nycollas-santos'><button class="botao-linkedin">Linkedin</button></a>
                     <a target="_blank" href='https://www.youtube.com/channel/UC9ffUKrx6ueEx5-Zr2pK5EQ'><button class="botao-youtube">Youtube</button></a>   
                     <!--<li class="scroll"><a href="#sobre">Scroll-Down</a></li>-->        
-                    
+                  
                     
                     </section>
             </div>
-            <img class="imagen-principal" src="imagens/foto principal.svg" alt="Foto do nycollas olhando para você com autoridade.A imagem está redonda e possui um fundo laranja.">
+            
         </section>
     </main>
 
 <!--Conteudo da pigina sobre mim-->
     <main  id="sobre" class="tudo-sobremin" >        
     <section class="conteudo-sobremim">
-        <p class="titulo-sobremim">Sobre Mim:</p>
-        <div class="sobre-mim">       
-        <iframe class="video-sobremim"src="https://youtube.com/embed/feWT9XlWcXg" frameborder="0"></iframe>
+        <p class="titulo-sobremim" data-aos="fade-right">Sobre Mim:</p>
+        <div class="sobre-mim" data-anime="right">       
+        <iframe class="video-sobremim" data-aos="fade-right"src="https://youtube.com/embed/-SlD0x1yp-Y" frameborder="0"></iframe>
 
         </div>
     </section>        
     </main>
 
 <!--Conteudo da pagina minhas habilidades-->
-    <main id="habilidades"class="minhas-habilidades">
+    <main id="habilidades"class="minhas-habilidades" data-aos="fade-up">
         <section class="secao-habilidades">
-            <div class="conteudo-escrito-hab">
-                <p class="titulo-habilidades">Minhas Skills:</p>
-                <p class="clique-btn">/*Clique para ver minhas habilidades na prática*/</p>
-                <div class="logo-linguagens" id="logolinguagens">
+            <div class="conteudo-escrito-hab" data-aos="fade-right">
+                <p class="titulo-habilidades" data-aos="fade-left">Minhas Skills:</p>
+                <p class="clique-btn" data-aos="fade-right">/*Clique para ver minhas habilidades na prática*/</p>
+                <div class="logo-linguagens" id="logolinguagens" data-aos="fade-up">
                     <img class="logo-html" src="imagens/LOGO HTML.svg" alt="logo da linguagem de marcação html">
                     <img class="logo-css" src="imagens/LOGO CSS.svg" alt="logo da linguagem de estilização css">
                     <img class="logo-js" src="imagens/LOGO JS.svg" alt="logo da linguagem de programação javascript">
@@ -83,68 +96,79 @@
         </section>
     </main>
     
-    <main class="projetos">
-       <p class="titulo-projeto">Meus Projetos:</p>
+    <main id="projetos" class="projetos" data-aos="fade-right">
+       <p class="titulo-projeto" data-aos="fade-right">Meus Projetos:</p>
         <section class="secao-projeto">
-            
-            <div class="card" style="width: 18rem;">
-                <img src="imagens/calculadora.png" class="img-card" alt="...">
+            <div class="card" data-aos="fade-left">
+                <img src="imagens/calculadora.png" href="https://nycollassantos.github.io/CalculadoraSimples/" class="img-card" alt="Miniatura do projeto calculadora simples">
                 <div class="card-body">
                   <h5 class="card-title">Calculadora</h5>
-                  <p class="card-text">Calculadora simples feita em html, css e javascript.</p>
-                  <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-github">Github</button></a>
-                  <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-online">Testar projeto</button></a>
+                  <p class="card-text">Calculadora simples <br> feita em html, css e javascript.</p>
+                  <div class="div-btn-card">
+                    <a target="_blank" href='https://github.com/NycollasSantos/CalculadoraSimples'><button class="btn-card-github">Github</button></a>
+                    <a target="_blank" href='https://nycollassantos.github.io/CalculadoraSimples/'><button class="btn-card-online">Testar projeto</button></a>
+                  </div>
                 </div>
               </div>
 
-              <div class="card" style="width: 18rem;">
+              <div class="card" data-aos="fade-right">
                 <img src="imagens/portifolio.png" class="img-card" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Portifolio</h5>
-                  <p class="card-text">Meu portifolio feito em html, css e javascript.</p>
+                  <p class="card-text">Meu primeiro portifolio feito em <br> html, css e javascript.</p>
+                  <div class="div-btn-card">
                   <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-github">Github</button></a>
                   <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-online">Testar projeto</button></a>
                 </div>
+                </div>
               </div>
               
-              <div class="card" style="width: 18rem;">
+              <div class="card" data-aos="fade-right">
                 <img src="imagens/breve.png" class="img-card" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Em Breve!</h5>
                   <p class="card-text">loading...</p>
-                  <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-github">Github</button></a>
-                  <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-online">Testar projeto</button></a>
+                  <div class="div-btn-card">
+                    <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-github">Github</button></a>
+                    <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-online">Testar projeto</button></a>
+                  </div>
                 </div>
               </div>
 
               <section class="projeto-linha2">
-              <div class="card" style="width: 18rem;">
+              <div class="card" data-aos="fade-right">
                 <img src="imagens/breve.png" class="img-card" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Em Breve!</h5>
                   <p class="card-text">loading...</p>
-                  <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-github">Github</button></a>
-                  <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-online">Testar projeto</button></a>
+                  <div class="div-btn-card">
+                    <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-github">Github</button></a>
+                    <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-online">Testar projeto</button></a>
+                  </div>
                 </div>
               </div>
 
-              <div class="card" style="width: 18rem;">
+              <div class="card" data-aos="fade-right">
                 <img src="imagens/breve.png" class="img-card" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Em Breve!</h5>
                   <p class="card-text">loading...</p>
-                  <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-github">Github</button></a>
-                  <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-online">Testar projeto</button></a>
+                  <div class="div-btn-card">
+                    <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-github">Github</button></a>
+                    <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-online">Testar projeto</button></a>
+                  </div>
                 </div>
               </div>
 
-              <div class="card" style="width: 18rem;">
+              <div class="card" data-aos="fade-right">
                 <img src="imagens/breve.png" class="img-card" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Em Breve!</h5>
                   <p class="card-text">loading...</p>
-                  <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-github">Github</button></a>
-                  <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-online">Testar projeto</button></a>
+                  <div class="div-btn-card">
+                    <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-github">Github</button></a>
+                    <a target="_blank" href='https://github.com/NycollasSantos/NycollasSantos'><button class="btn-card-online">Testar projeto</button></a>
+                  </div>
                 </div>
               </div>
 
@@ -161,6 +185,9 @@
         <p class="info-footer">Feito por Nycollas Santos(Todos os Direitos reservados!!)</p>
 
     </footer>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

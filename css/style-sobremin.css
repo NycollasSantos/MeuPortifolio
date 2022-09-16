@@ -32,15 +32,4 @@
 #btn-mobile{
     display: none;
 }
-.minhas-habilidades{
-    display:flex;
-    justify-content:center; 
-    align-items:center;
-    background: #0E0E0E;
-    flex-direction: row;
-    flex-direction: column;
-    row-gap: 80px;
-    height: 500px;
-    width: 920;
-   
-}
+

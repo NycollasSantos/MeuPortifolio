@@ -1,6 +1,18 @@
+.minhas-habilidades{
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+    background: #0E0E0E;
+    flex-direction: row;
+    flex-direction: column;
+    row-gap: 80px;
+    height: 980px;
+    width: 1220;
+   
+}
 .secao-habilidades{
     display: flex;
-    margin-top: auto;
+    margin-top: 611px;
     flex-wrap: wrap; 
 
 }

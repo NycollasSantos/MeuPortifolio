@@ -1,3 +1,5 @@
+/* Responsividade do site*/
+
 .imagen-principal {
     height: 530px;
     margin-left: -256px;
@@ -34,21 +36,62 @@
 .imagen-principal:hover::after{
     opacity:1;
 }
-/* Efeito Zoom da imagem principal*/
+/* Fim do Efeito Zoom da imagem principal*/
 
+
+/*Responsividade para outros dispositivos*/
 @media (max-width: 1640px) {
     .conteudo-secundario {
+        display: flex;
         flex-direction: column;
-       
-}
+        justify-content:center;         
+    }
 
-.imagen-principal {
-    width: 500px;
+    .conteudo-escrito{
+        display: flex;
+        text-align: center;
+        font-size:100%;
+        row-gap: 10px;
+        margin-top: -60px;
+        margin-left: 10px;
+    
+    }
+      
+    .meu-nome{
+        font-size:70px;
+    }
+
+    .titulo-ola{
+        font-size:30px;
+    }
+    
+    .titulo-desenvolvedor{
+    font-size:30px;
+    }
+    
+    
+    .imagen-principal {
+    display: flex;
+    max-width: 400px;
+    margin-left: -90px;
+    
+    }
+    
+    .div-img{
+    display: flex;
     justify-content: center;
-    margin-left: -9px;
+    flex-direction: center;
+    margin-top: 30px;
+    margin-left: 80px;
+    }
     
+    .conjunto-botoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
     
-}
+    }
+}    
 
 @media (max-width: 1204px){
     .video-sobremim {
@@ -76,13 +119,72 @@
         height: 300px;
         width: 500px;
     }
+}    
 
-@media (max-width: 512px){
+@media (max-width: 508px){
     .video-sobremim {
         height: 250px;
         width: 400px;
         }
+
+    .meu-nome{
+        font-size:50px;
+        }    
     }
+
+@media (max-width: 510px){
+    .conteudo-secundario {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+         
+    }
+    
+    .conteudo-escrito{
+        display: flex;
+        text-align: center;
+        font-size:100%;
+        row-gap: 10px;
+        margin-top: -60px;
+        margin-left: 10px;
+    
+    }
+      
+    .titulo-ola{
+        font-size:30px;
+    }
+
+    .meu-nome{
+        font-size:10px;
+    }
+    
+    .titulo-desenvolvedor{
+    font-size:10px;
+    }
+    
+    
+    .imagen-principal {
+    display: flex;
+    max-width: 100%;
+    margin-left: -256px;
+    
+    }
+    
+    .div-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    }
+    
+    .conjunto-botoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    
+    }
+}    
     
 @media (max-width: 414px){
     .video-sobremim {
@@ -90,8 +192,60 @@
         height: 200px;
         width: 350px;
         }
-    } 
+
+        .imagen-principal{
+            display: flex;
     
+           
+        }
+
+        .meu-nome{
+            font-size:10px;
+        }
+
+        .tudo-sobremin{
+                height: 900px;
+                width: auto;
+        }
+    
+        .minhas-habilidades{
+                height: 700px;
+                width: auto;
+                
+                
+            }
+    
+        .logo-linguagens{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:center;
+                gap: 52px;
+                margin-top: 50px;
+            }    
+        
+        .titulo-habilidades{
+                display: flex;
+                justify-content:center;
+                margin-top: -600px;
+    
+            }    
+        #botao-cv {
+            display: flex;
+                align-items:center;
+                text-align: center;
+                justify-content: center;
+                padding: 8rem;
+                max-width: 100%; 
+                font-family: 'Inter', sans-serif;
+                background-color: #00C2CB;
+                font-size: 2.6rem;
+                color: #FFFFFF;
+                border-radius: 11px;
+                -webkit-transition-duration: 0.4s; / * Safari * /
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+        
     #botao-cv {
         display: flex;
         align-items:center;
@@ -108,7 +262,7 @@
         transition-duration: 0.4s;
         cursor: pointer;
         }
-    }
+    
 
     .imagen-principal {
         width: 400px;
@@ -117,27 +271,9 @@
         margin-top: 5px;
         
 }
-
+} 
 
 @media (max-width: 625px) {
-    .conjunto-botoes {
-        display: flex;
-        width: 80px;
-        margin-top: 1px;
-        height: 5px;
-        height: 27px;
-        flex-direction: row;
-        gap: 10px;
-        text-align: center;
-    }
-
-    .imagen-principal {
-        max-width: 100%;
-        flex-direction: center;
-        margin-top: -20px;
-        margin-left: -9px;
-    }
-
     .botao-github{
         width: 80px;
         height: 53px;
@@ -153,6 +289,7 @@
 
         
     }
+
 
     .botao-github:hover {
         background-color: #FF4716;
@@ -229,6 +366,59 @@
         color: white;
     }
 
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+         
+}
+
+.conteudo-escrito{
+    display: flex;
+    text-align: center;
+    font-size:50%;
+    row-gap: 10px;
+    margin-top: -120px;
+    margin-left: 10px;
+    
+}
+
+.titulo-ola{
+    font-size:20px;
+}
+
+.meu-nome{
+    font-size:30px;
+}
+
+.titulo-desenvolvedor{
+    font-size:20px;
+}
+
+
+.imagen-principal {
+    display: flex;
+    max-width: 100%;
+    margin-left: 10px;
+    
+    
+}
+
+.div-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    margin-top: -130px;
+    margin-left: 10px;
+}
+
+.conjunto-botoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    gap: 20px;
+    
+}    
 }
 
 @media (max-width: 1191px) {
@@ -252,16 +442,6 @@
     }
 }
 
-
-
-
-#botao-cv{
-
-}
-
-
-}
-
 @media (max-width: 1191px) {
     #menu {
         display:block;
@@ -270,6 +450,7 @@
         top: 70px;
         right: 0px;
         background:#040404;
+        opacity: 0.9;
         height: 0px;
         transition: .6s;
         z-index: 10000;
@@ -334,4 +515,8 @@
         top: -10px;
     }
 }
+/*Fim da Responsividade para outros dispositivos*/
+
+
+
 

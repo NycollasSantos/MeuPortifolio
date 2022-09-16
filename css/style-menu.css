@@ -31,7 +31,7 @@ a {
 #menu  {
     display: flex;
     margin-left: 80px;
-    gap: 52px;
+    gap: 42px;
     list-style: none;
     color: #FFFFFF;
     font-weight: 400;
@@ -39,10 +39,56 @@ a {
     width: 90%;
     max-width: 780px;
     min-width: 320px;
-   
+    
 }
 
+/*Efeito hover do menu*/
+.menu-home{
+    padding: 5px;
+    -webkit-transition-duration: 0.4s; / * Safari * /
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
 
+.menu-home:hover {
+    height: 4px;
+    color: #FF4716;
+}
+
+.menu-sobre{
+    padding: 5px;
+    -webkit-transition-duration: 0.4s; / * Safari * /
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.menu-sobre:hover {
+    color: #FF4716;
+}
+
+.menu-habilidades{
+    padding: 5px;
+    -webkit-transition-duration: 0.4s; / * Safari * /
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.menu-habilidades:hover {
+    color: #FF4716;
+}
+
+.menu-projetos{
+    padding: 5px;
+    -webkit-transition-duration: 0.4s; / * Safari * /
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.menu-projetos:hover {
+    color: #FF4716;
+
+
+}
 
 #botao-cv {
     display: flex;

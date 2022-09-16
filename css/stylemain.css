@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-
 @import url(/css/reset.css);
 @import url(/css/style-menu.css);
 @import url(/css/style-sobremin.css);
 @import url(/css/style-habilidade.css);
 @import url(/css/responsividade.css);
 @import url(/css/style-projetos.css);
-@import url(/css/style-footer.css);*/
+@import url(/css/style-footer.css);
+@import url(/css/anime-scroll.css);
+
 
 
     
@@ -22,6 +23,14 @@
     
 }
 
+.div-img{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 1000px;
+}
+
 .conteudo-secundario {
     display: flex;
     flex-direction: row;
@@ -33,8 +42,10 @@
     display: flex;
     flex-direction: row;
     flex-direction: column;
-    gap: 53px;
-    justify-content:space-around;
+    gap: 23px;
+    margin-left: -900px;
+    margin-top: -550px;
+    justify-content:space-between;
 }
 
 .titulo-ola {
@@ -130,9 +141,10 @@
 
 
 .imagen-principal {
-    height: 530px;
+    display: flex;
+    max-width: 100%;
     margin-left: -256px;
-    margin-top: 50px;
+    margin-top: 300px;
 }
 
 /* Efeito Zoom da imagem principal*/
@@ -170,330 +182,9 @@
 
 
 /* Responsividade do site*/
-@media (max-width: 1640px) {
-    .conteudo-secundario {
-        flex-direction: column;
-       
-}
-
-.imagen-principal {
-    max-width: 500px;
-    justify-content: center;
-    margin-left: -9px;
-    
-    
-}
-
-@media (max-width: 1204px){
-    .video-sobremim {
-        height: 500px;
-        width: 1000px;
-    }
-}
-
-@media (max-width: 1014px){
-    .video-sobremim {
-        height: 400px;
-        width: 800px;
-    }
-}
-
-@media (max-width: 814px){
-    .video-sobremim {
-        height: 300px;
-        width: 500px;
-    }
-}
-
-@media (max-width: 781px){
-    .video-sobremim {
-        height: 300px;
-        width: 500px;
-    }
-
-@media (max-width: 512px){
-        .video-sobremim {
-            height: 250px;
-            width: 400px;
-        }
-    }
-    
-@media (max-width: 414px){
-        .video-sobremim {
-            display: flex;
-            justify-content: center;
-            height: 200px;
-            width: 350px;
-        }
-    }
-
-    .imagen-principal{
-        display: block;
-
-       
-    }
-    
-        .tudo-sobremin{
-            height: 900px;
-            width: auto;
-    }
-
-        .minhas-habilidades{
-            height: 700px;
-            width: auto;
-            
-            
-        }
-
-        .logo-linguagens{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content:center;
-            gap: 52px;
-            margin-top: 50px;
-        }    
-    
-        .titulo-habilidades{
-            display: flex;
-            justify-content:center;
-            margin-top: -600px;
-
-        }    
-    #botao-cv {
-        display: flex;
-            align-items:center;
-            text-align: center;
-            justify-content: center;
-            padding: 8rem;
-            max-width: 100%; 
-            font-family: 'Inter', sans-serif;
-            background-color: #00C2CB;
-            font-size: 2.6rem;
-            color: #FFFFFF;
-            border-radius: 11px;
-            -webkit-transition-duration: 0.4s; / * Safari * /
-            transition-duration: 0.4s;
-            cursor: pointer;
-        }
-    }
-
-        .imagen-principal {
-            width: 400px;
-            justify-content: center;
-            margin-left: -9px;
-            margin-top: 5px;
-        
-}
+x
 
 
-@media (max-width: 625px) {
-    .conjunto-botoes {
-        display: flex;
-        width: 80px;
-        margin-top: 1px;
-        height: 5px;
-        height: 27px;
-        flex-direction: row;
-        gap: 10px;
-        text-align: center;
-    }
-
-    .imagen-principal {
-        max-width: 100%;
-        flex-direction: center;
-        margin-top: -20px;
-        margin-left: -9px;
-    }
-
-    .botao-github{
-        width: 80px;
-        height: 53px;
-        font-family: 'Inter', sans-serif;
-        background-color: #0E0E0E;
-        font-size: 2.0rem;
-        color: #FFFFFF;
-        border: 2px solid #FF4716;
-        border-radius: 11px;
-        -webkit-transition-duration: 0.4s; / * Safari * /
-        transition-duration: 0.4s;
-        cursor: pointer;
-
-        
-    }
-
-    .botao-github:hover {
-        background-color: #FF4716;
-        color: white;
-    }
-
-    .botao-linkedin {
-        width: 90px;
-        height: 53px;
-        font-family: 'Inter', sans-serif;
-        background-color: #0E0E0E;
-        font-size: 2.0rem;
-        color: #FFFFFF;
-        border: 2px solid #FF4716;
-        border-radius: 11px;
-        -webkit-transition-duration: 0.4s; / * Safari * /
-        transition-duration: 0.4s;
-        cursor: pointer;
-    }
-    
-    .botao-linkedin:hover {
-        background-color: #FF4716;
-        color: white;
-    }
-
-    .botao-youtube {
-        width: 90px;
-        height: 53px;
-        font-family: 'Inter', sans-serif;
-        background-color: #0E0E0E;
-        font-size: 2.0rem;
-        color: #FFFFFF;
-        border: 2px solid #FF4716;
-        border-radius: 11px;
-        -webkit-transition-duration: 0.4s; / * Safari * /
-        transition-duration: 0.4s;
-        cursor: pointer;
-    }
-    
-    .botao-youtube:hover {
-        background-color: #FF4716;
-        color: white;
-    }
-
-    .titulo-sobremim {
-        display: flex;
-        font-size: 2.0rem;
-        justify-content:space-between;
-
-    }
-
-    #botao-cv {
-        display: flex;
-        align-items:center;
-        text-align: center;
-        justify-content: center;
-        padding: 8rem;
-        height:60px ;
-        padding-left: 20px;
-        padding-right:20px;
-        font-family: 'Inter', sans-serif;
-        background-color: #00C2CB;
-        font-size: 2.6rem;
-        color: #FFFFFF;
-        border-radius: 11px;
-        -webkit-transition-duration: 0.4s; / * Safari * /
-        transition-duration: 0.4s;
-        cursor: pointer;
-    
-    }
-    
-    #botao-cv:hover {
-        background-color: #FF4716;
-        color: white;
-    }
-
-}
-
-@media (max-width: 1191px) {
-    #botao-cv {
-    display: flex;
-        align-items:center;
-        text-align: center;
-        justify-content: center;
-        padding: 8rem;
-        height:60px ;
-        padding-left: 20px;
-        padding-right:20px;
-        font-family: 'Inter', sans-serif;
-        background-color: #00C2CB;
-        font-size: 2.6rem;
-        color: #FFFFFF;
-        border-radius: 11px;
-        -webkit-transition-duration: 0.4s; / * Safari * /
-        transition-duration: 0.4s;
-        cursor: pointer;
-    }
-}
-
-
-}
-
-@media (max-width: 1191px) {
-    #menu {
-        display:block;
-        position: absolute;
-        width: 100%;
-        top: 70px;
-        right: 0px;
-        background:#040404;
-        height: 0px;
-        transition: .6s;
-        z-index: 10000;
-        visibility: hidden;
-        overflow-y: hidden;
-        
-        
-    
-    }
-
-    #nav.active #menu {
-        height: calc(100vh - 70px);
-        visibility: visible;
-        overflow-y: auto;
-    }
-
-    #menu a {
-        padding: 1rem 0;
-        margin: 0 1rem;
-        
-    }
-
-    #btn-mobile {
-        display: flex;
-        font-size: 100%;
-        align-items:center;
-        padding: .5rem 1rem;
-        font-size: 1rem;
-        border: none;
-        background: none;
-        color:#FFFFFF;
-        cursor: pointer;
-        gap: .5rem;
-        
-    }
-
-    #hamburger {
-        color: #FF4716;
-        border-top: 5px solid;
-        width: 30px;
-        display: block;
-    }
-    #hamburger::after, #hamburger::before {
-        content: '';
-        display: block;
-        width: 30px;
-        height:5px;
-        background-color: currentColor;
-        margin-top: 5px;
-        transition: .3s;
-        position: relative;
-    }
-    #nav.active #hamburger {
-        border-top-color: transparent;
-    }
-
-    #nav.active #hamburger::before {
-        transform: rotate(135deg);
-    }
-    #nav.active #hamburger::after {
-        transform: rotate(-135deg);
-        top: -10px;
-    }
-}
 
 
 
