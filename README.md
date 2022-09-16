@@ -1,4 +1,4 @@
-﻿# MeuPortifolio
+﻿# Meu Portifolio
  Esse é Meu primeiro projeto realizado(meu portifólio). Utilizei html, css, js e epenas uma biblioteca externa para fazer as animações do scroll.
  
 <div align="center">
