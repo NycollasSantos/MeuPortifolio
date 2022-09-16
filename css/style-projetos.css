@@ -31,8 +31,7 @@
 
 .secao-projeto{
     display: flex;
-    width: 350px;
-    margin-left: -50px;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
     margin-top: 5px;
@@ -42,6 +41,7 @@
 
 .projeto-linha2{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
     margin-top: 5px;
