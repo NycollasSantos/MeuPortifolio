@@ -19,6 +19,7 @@
 
 
 
+
 .card .img-card{
     display: flex;
     justify-content: center;
@@ -30,9 +31,11 @@
 
 .secao-projeto{
     display: flex;
+    width: 350px;
+    margin-left: -50px;
     flex-wrap: wrap;
     justify-content:center;
-    margin-top: 90px;
+    margin-top: 5px;
     gap: 100px; 
     row-gap: 20px;
 }
