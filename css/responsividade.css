@@ -336,9 +336,14 @@
 
     .titulo-sobremim {
         display: flex;
-        font-size: 2.0rem;
+        font-size: 3.5rem;
         justify-content:space-between;
+        white-space: nowrap;
 
+    }
+
+    .video-sobremim{
+        margin-top: -50px;
     }
 
     #botao-cv {
